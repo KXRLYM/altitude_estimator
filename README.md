@@ -8,12 +8,13 @@ Altitude data was obtained using ArduPilot Terrain Generator: https://terrain.ar
 ### Output
 Using the two ""timeseries"" data, altitude at each timestep is estimated. The output is dependent on the ratio of standard deviations of sensor noises as well as the process noise. 
 For simplicity, a constant velocity model + same sensor update frequencies were used.
-The following is an example with a higher uncertainty on the proximity sensor.
-![high_gps](https://github.com/user-attachments/assets/4689b0ee-6244-4a5a-ab01-a7b2741a813d)
+The following is an example with a higher uncertainty on the GPS data.
 
-
+![high_prox](https://github.com/user-attachments/assets/ca40d2e3-2297-4781-a872-4b564b7755d0)
 
 ### Dependencies
+
+
 - **cnpy** : converting npy arrays into Eigen
 - **Eigen** : library to compute Kalman filter equations
 - **matplotcplusplus** : visualisation
