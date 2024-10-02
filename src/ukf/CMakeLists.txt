@@ -4,5 +4,5 @@ project(UKF)
 
 find_package(Eigen3 REQUIRED)
 
-add_executable(${PROJECT_NAME} unscented_kalman_filter.cpp)
+add_executable(${PROJECT_NAME} sensor_fusion.cpp)
 target_link_libraries(${PROJECT_NAME} PUBLIC cnpy Eigen3::Eigen matplot)

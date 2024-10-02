@@ -33,6 +33,7 @@ class UKF {
     private: 
         Eigen::VectorXd sensor_data_;
         Eigen::VectorXd gps_data_;
+        Eigen::VectorXd averaged_data_;
         size_t simulation_end_time_;
         Eigen::VectorXd results_;
 
