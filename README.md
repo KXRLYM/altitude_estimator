@@ -10,7 +10,8 @@ Using the two ""timeseries"" data, altitude at each timestep is estimated. The o
 For simplicity, a constant velocity model + same sensor update frequencies were used.
 The following is an example with a higher uncertainty on the GPS data.
 
-![high_prox](https://github.com/user-attachments/assets/ca40d2e3-2297-4781-a872-4b564b7755d0)
+![high_gps](https://github.com/user-attachments/assets/2ca511c0-cb28-4356-b03d-05539fecf9ff)
+
 
 ### Dependencies
 
